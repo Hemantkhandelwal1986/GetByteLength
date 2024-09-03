@@ -21,5 +21,5 @@ def get_byte_length():
         # Return an error message if the request is not JSON
         return jsonify({'error': 'Invalid input, expected JSON with "text" field'}), 400
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
